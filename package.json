@@ -1,0 +1,29 @@
+{
+  "name": "karma-chai-backbone",
+  "version": "0.1.0",
+  "description": "A karma plugin adapter for matthijsgroen's chai-backbone",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/codepuzzle/karma-chai-backbone.git"
+  },
+  "bugs": {
+    "url": "https://github.com/codepuzzle/karma-chai-backbone/issues"
+  }
+  "keywords": [
+    "karma",
+    "chai",
+    "backbone"
+  ],
+  "author": "Anton Mikulcic <anton@codepuzzle.de>",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "gitHead": "f7430c274e6e2b98d002af2dc360e5dbe09ff0a8",
+  "dependencies": {
+    "chai-backbone": "~0.9.2"
+  },
+  "peerDependencies": {
+    "karma": "~0.10",
+    "karma-sinon-chai": "~0.1"
+  }
+}
