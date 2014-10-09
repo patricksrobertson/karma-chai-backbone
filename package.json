@@ -24,6 +24,6 @@
   },
   "peerDependencies": {
     "karma": "~0.10",
-    "karma-sinon-chai": "~0.1"
+    "karma-sinon-chai": "~0.2"
   }
 }
