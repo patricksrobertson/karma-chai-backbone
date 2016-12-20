@@ -42,7 +42,7 @@ var framework = function(files) {
   resolvedChaiBackbone = require.resolve('chai-backbone');
 
   files.splice(afterKarmaSinonChai, 0, pattern(path.resolve(resolvedChaiBackbone)));
-  files.splice(afterKarmaSinonChai, 0, pattern(path.resolve(require.resolve('chai-backbone/node_modules/chai-changes'))));
+  files.splice(afterKarmaSinonChai, 0, pattern(path.resolve(require.resolve('chai-changes'))));
 };
 
 framework.$inject = ['config.files'];
